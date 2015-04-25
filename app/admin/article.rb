@@ -6,7 +6,7 @@ ActiveAdmin.register Article do
     f.inputs "Admin Details" do
       f.input :title
       f.input :subtitle
-      f.input :body
+      f.input :body, as: :wysihtml5, commands: [ :bold, :italic, :underline, :ul, :ol, :outdent, :indent, :link ]
       f.input :main_image
       f.input :date, as: :date_picker
       f.input :category, as: :select2
