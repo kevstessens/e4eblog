@@ -48,6 +48,7 @@ gem 'spring',        group: :development
 
 gem 'activeadmin', github: 'gregbell/active_admin'
 gem 'carrierwave'
+gem 'nested_form'
 
 gem 'fog'
 gem 'devise'
