@@ -1,0 +1,20 @@
+#encoding: utf-8
+
+<%= semantic_nested_form_for [:admin, @author] do |f|%>
+
+    <%=f.inputs "Author Details" do%>
+        <%= f.input :name %>
+        <%= f.input :email %>
+        <%= f.input :main_image %>
+    <%end%>
+
+    <br>
+
+    <%= f.actions do %>
+        <%= f.action :submit %>
+        <li class="cancel">
+          <%=link_to "Cancel", admin_authors_path%>
+        </li>
+    <% end %>
+
+<% end%>
