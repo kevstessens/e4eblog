@@ -128,6 +128,7 @@
     <orderEntry type="library" scope="PROVIDED" name="actionview (v4.1.6, rbenv: 1.9.3-p547) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activeadmin (v1.0.0.pre1@f5b160, rbenv: 1.9.3-p547) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activeadmin-dragonfly (v0.0.2@611164, rbenv: 1.9.3-p547) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="activeadmin-select2 (v0.1.6@3e471a, rbenv: 1.9.3-p547) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activeadmin-wysihtml5 (v1.0.0@cf609b, rbenv: 1.9.3-p547) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activemodel (v4.1.6, rbenv: 1.9.3-p547) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activerecord (v4.1.6, rbenv: 1.9.3-p547) [gem]" level="application" />
