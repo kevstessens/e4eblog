@@ -41,7 +41,7 @@ http://e4eblog.herokuapp.com/api/v1/categories | List all categories
 **Response**
 
 Key Name     | Description     | Example
--------- | ---
+-------- | --- | ---
 id | Category ID | 1
  name | Category name | Tech
  description | Category description | Tech News
@@ -72,7 +72,7 @@ http://e4eblog.herokuapp.com/api/v1/categories/ | Returns the information about 
 **Endpoint Parameters**
 
 Parameter     | Required     | Type     | Default     | Description
--------- | ---
+-------- | --- | --- | --- | ---
 id | Yes | Integer | *null* | The Category ID
          
          
@@ -84,7 +84,7 @@ id | Yes | Integer | *null* | The Category ID
 **Response**
 
 Key Name     | Description     | Example
--------- | ---
+-------- | --- | ---
 category.id | Category ID | 1
  category.name | Category name | Tech
  category.description | Category description | Tech News
@@ -191,7 +191,7 @@ http://e4eblog.herokuapp.com/api/v1/articles | List all articles
 **Response**
 
 Key Name     | Description     | Example
--------- | ---
+-------- | --- | ---
 articles | Hash of articles with their details | HASH
  
  ----------
@@ -217,7 +217,7 @@ http://e4eblog.herokuapp.com/api/v1/articles/ | Returns the information about a 
 **Endpoint Parameters**
 
 Parameter     | Required     | Type     | Default     | Description
--------- | ---
+-------- | --- | --- | --- | ---
 id | Yes | Integer | *null* | The Article ID
          
          
@@ -229,7 +229,7 @@ id | Yes | Integer | *null* | The Article ID
 **Response**
 
 Key Name     | Description     | Example
--------- | ---
+-------- | --- | ---
 id | Article ID | 1
 title | Article title | Title1
 subtitle | Article subtitle | Subtitle1
