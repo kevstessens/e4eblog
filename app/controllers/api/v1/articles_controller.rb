@@ -6,12 +6,16 @@ module Api
       # GET /articles
       def index
         @articles = Article.all
-        respond_with @articles
+        respond_with({
+                         :articles => @articles.as_json(:methods => [:author_details, :category_details])
+                     })
       end
 
       # GET /articles/1
       def show
-        respond_with @article
+        respond_with({
+                         :article => @article.as_json(:methods => [:author_details, :category_details])
+                     })
       end
 
       private

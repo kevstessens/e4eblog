@@ -7,4 +7,9 @@ class Article < ActiveRecord::Base
   def author_details
     self.author
   end
+
+  def category_details
+    self.category
+  end
+
 end
