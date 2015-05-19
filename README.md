@@ -180,8 +180,7 @@ List Articles
 Endpoint     | Description
 -------- | ---
 http://e4eblog.herokuapp.com/api/v1/articles | List all articles
-         
-  
+
 
 
 ----------
