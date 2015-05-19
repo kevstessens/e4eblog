@@ -11,7 +11,10 @@ module Api
 
       # GET /categories/1
       def show
-        respond_with @category
+        respond_with({
+                         :category => @category.as_json(:methods => [:percentage]),
+                         :articles => @category.articles.as_json(:methods => [:author_details])
+                     })
       end
 
       private

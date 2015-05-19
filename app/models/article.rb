@@ -4,4 +4,7 @@ class Article < ActiveRecord::Base
 
   mount_uploader :main_image, ImageUploader
 
+  def author_details
+    self.author
+  end
 end
