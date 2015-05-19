@@ -50,3 +50,4 @@ bower.json
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+/.idea
