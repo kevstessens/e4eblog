@@ -47,6 +47,7 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'activeadmin', github: 'gregbell/active_admin'
+gem 'active_skin'
 gem 'carrierwave'
 gem 'nested_form'
 
