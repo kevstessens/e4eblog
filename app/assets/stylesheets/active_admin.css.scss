@@ -12,9 +12,10 @@
 @import "active_admin/base";
 @import "active_admin/select2/base";
 
-$skinActiveColor: #001cee;
-$skinHeaderBck: #002744;
-$panelHeaderBck: #002744;
+$skinLogo: url("admin_logo.png") no-repeat 0 0;
+$skinActiveColor: rgb(0, 127, 88);
+$skinHeaderBck: #5CB886;
+$panelHeaderBck: #5CB886;
 @import "active_skin";
 
 
